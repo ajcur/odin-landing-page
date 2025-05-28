@@ -45,8 +45,8 @@ a {
 .hero-box {
     display: flex;
     align-items: center;
-    padding: 30px 100px;
-    gap: 50px;
+    padding: 30px 100px 100px;
+    gap: 60px;
 }
 
 .hero-main-text {
@@ -58,8 +58,6 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-/*     align-items: center; */
-/*     padding: 0px 100px; */
 }
 
 .heading {
