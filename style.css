@@ -59,7 +59,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 100px;
+/*     padding: 0px 100px; */
 }
 
 .heading {
@@ -71,8 +71,9 @@ a {
 
 .image-grid {
     display: flex;
+    justify-content: center;
     margin-bottom: 80px;
-    gap: 20px;
+    gap: 40px;
 }
 
 .image-box {
@@ -81,11 +82,30 @@ a {
     align-items: center;
     text-align: center;
     gap: 20px;
+    flex-basis: 0;
 }
 
 .square-image {
     width: 150px;
     border-radius: 10px;
+}
+
+.quote-banner {
+    background-color: #E5E7EB;
+    padding: 80px 140px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-attribution {
+    text-align: right;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 button {
