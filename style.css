@@ -12,9 +12,12 @@ a {
     color: inherit;
 }
 
-.header {
+.header-and-hero {
     background-color: #1F2937;
     color: white;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
