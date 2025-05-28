@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-linktree {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.header-logo {
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
