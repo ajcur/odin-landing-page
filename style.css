@@ -117,11 +117,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     border-radius: 10px;
 }
 
 .call-to-action {
+    color: #E5E7EB;
     flex-basis: 500px;
     display: flex;
     flex-direction: column;
@@ -130,6 +131,7 @@ a {
 }
 
 .call-to-action-title {
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
 }
