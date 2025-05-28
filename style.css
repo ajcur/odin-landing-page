@@ -58,7 +58,7 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+/*     align-items: center; */
 /*     padding: 0px 100px; */
 }
 
@@ -67,6 +67,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     margin: 40px 0px;
+    text-align: center;
 }
 
 .image-grid {
@@ -108,11 +109,41 @@ a {
     font-size: 18px;
 }
 
+.call-to-action-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px;
+    margin: 80px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     padding: 8px 35px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 900;
+}
+
+.call-to-action-box button {
+    border: 2px solid #F9FAF8;
+    flex-shrink: 0;
 }
